@@ -166,6 +166,22 @@ $(function() {
 
   var main = {
     init: function() {
+      if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        // window.location.href = "https://www.baidu.com/"
+      } else {
+        $(window).resize(function() {
+          var wWidth = $(window).width();
+          if (wWidth >= 1200) {
+            document.getElementsByTagName('body')[0].style.zoom = 1;
+            return;
+          }
+          if (wWidth < 600) 
+            return;
+          document.getElementsByTagName('body')[0].style.zoom = wWidth / 1400;
+        })
+        $(window).resize()
+      }
+
       mainHeader.init();
       planPercent.init();
       planRoad.init();
