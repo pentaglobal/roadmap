@@ -41,7 +41,7 @@ var config = {
             [
               {
                 name: "PC端钱包（基于命令行）",
-                isFinish: false
+                isFinish: true
               }, {
                 name: "散列抽签算法",
                 isFinish: false

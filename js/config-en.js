@@ -41,7 +41,7 @@ var config = {
             [
               {
                 name: "PC wallet (Command Line based)",
-                isFinish: false
+                isFinish: true
               }, {
                 name: "Random Sortilege Algorithm (RSA)",
                 isFinish: false
