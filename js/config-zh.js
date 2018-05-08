@@ -40,7 +40,7 @@ var config = {
           children: [
             [
               {
-                name: "命令行钱包",
+                name: "PC端钱包（基于命令行）",
                 isFinish: true
               }, {
                 name: "散列抽签算法",
@@ -73,7 +73,7 @@ var config = {
                 name: "智能合约",
                 isFinish: false
               }, {
-                name: "PC端钱包",
+                name: "PC端钱包（图形界面）",
                 isFinish: false
               }
             ],

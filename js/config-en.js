@@ -40,7 +40,7 @@ var config = {
           children: [
             [
               {
-                name: "Command line wallet",
+                name: "PC wallet (Command Line based)",
                 isFinish: true
               }, {
                 name: "Random Sortilege Algorithm (RSA)",
@@ -73,7 +73,7 @@ var config = {
                 name: "Smart contract",
                 isFinish: false
               }, {
-                name: "PC wallet",
+                name: "PC wallet（with UI）",
                 isFinish: false
               }
             ],
@@ -168,7 +168,7 @@ var config = {
             ],
             [
               {
-                name: "NoSQL data storage Engine availableSupport of complex datatype（Datasets and Objects)and conditions query"
+                name: "Adding noSQL data storage Engine, support complex datatypes（Datasets and Objects）and query with data conditions"
               }
             ],
             []
@@ -189,7 +189,7 @@ var config = {
                 name: "PC version of DLOS UI",
                 isFinish: false
               }, {
-                name: "multi-chain support",
+                name: "Multi-chain support",
                 isFinish: false
               }
             ],
@@ -203,7 +203,7 @@ var config = {
           children: [
             [
               {
-                name: "sidechain support",
+                name: "Sidechain support",
                 isFinish: false
               }, {
                 name: "PENTA file system",
@@ -257,7 +257,7 @@ var config = {
                 name: "Enterprise operation & maintenacne platform",
                 isFinish: false
               }, {
-                name: "Enterprise Application",
+                name: "Enterprise level application component",
                 isFinish: false
               }, {
                 name: "Chain member management",
