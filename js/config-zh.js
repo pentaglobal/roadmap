@@ -41,10 +41,10 @@ var config = {
             [
               {
                 name: "PC端钱包（基于命令行）",
-                isFinish: true
+                isFinish: false
               }, {
                 name: "散列抽签算法",
-                isFinish: true
+                isFinish: false
               }, {
                 name: "DSC共识算法实现",
                 isFinish: false

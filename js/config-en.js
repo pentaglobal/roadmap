@@ -41,10 +41,10 @@ var config = {
             [
               {
                 name: "PC wallet (Command Line based)",
-                isFinish: true
+                isFinish: false
               }, {
                 name: "Random Sortilege Algorithm (RSA)",
-                isFinish: true
+                isFinish: false
               }, {
                 name: "Dynamic Stake Consensus (DSC)",
                 isFinish: false
