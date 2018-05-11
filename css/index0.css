@@ -3,7 +3,6 @@
     transform: rotate(0deg); }
   100% {
     transform: rotate(-360deg); } }
-
 @keyframes twinkling {
   0% {
     filter: alpha(opacity=20);
@@ -14,7 +13,6 @@
   100% {
     filter: alpha(opacity=20);
     -webkit-transform: scale(1); } }
-
 .animation {
   -webkit-animation: twinkling 1.0s infinite ease-in-out;
   animation: twinkling 1.2s infinite ease-in-out;
@@ -148,29 +146,29 @@ li {
 @media screen and (min-width: 1400px) {
   .main-header .main-header-inner {
     width: 1400px; }
+
   .roadmap-wrap {
     width: 1400px; }
+
   .roadmap {
     width: 1140px; } }
-
 .roadmap-header {
   text-align: center;
   padding-bottom: 60px;
   margin-left: -250px; }
   .roadmap-header .tt {
-    height: auto;
+    height: 80px;
     line-height: 80px;
     color: #8364fb;
     font-size: 38px;
     letter-spacing: 2px; }
   .roadmap-header .desc {
-    height: auto;
+    height: 30px;
     line-height: 30px;
-    color: #d0cbda;
-    font-size: 1.3em; }
+    color: #d0cbda; }
   .roadmap-header .list {
     color: #867da1;
-    font-size: 1.1em; }
+    font-size: 12px; }
     .roadmap-header .list span {
       padding-right: 10px; }
 
@@ -220,7 +218,7 @@ li {
     position: absolute;
     left: 0;
     right: 40px;
-    font-size: 1.2em;
+    font-size: 12px;
     text-align: right;
     top: -50px; }
     .plan-item.all .item-state span {
@@ -297,7 +295,7 @@ li {
   .plan-item.sub .name-desc {
     padding-left: 80px;
     width: 70%;
-    font-size: 1.1em;
+    font-size: 14px;
     padding-right: 40px;
     word-wrap: break-word; }
   .plan-item.end .plan-item-logo {
@@ -324,7 +322,7 @@ li {
   .plan-item.end .name-desc {
     padding-left: 80px;
     width: 50%;
-    font-size: 1.1em;
+    font-size: 12px;
     padding-right: 40px;
     word-wrap: break-word; }
   .plan-item.end .end-content {
@@ -403,13 +401,13 @@ li {
       .plan-item .plan-item-table .tr .td > ul {
         min-height: 60px; }
       .plan-item .plan-item-table .tr .td li {
-        font-size: 1.25em;
+        font-size: 12px;
         padding: 3px 10px 3px 0; }
         .plan-item .plan-item-table .tr .td li:hover {
           color: #8364fb; }
 
 .plan-item-header {
-  height: auto;
+  height: 80px;
   border: 1px solid #4d3f73;
   border-radius: 80px;
   padding: 10px 0;
@@ -491,3 +489,5 @@ li {
   font-size: 14px;
   font-weight: 600;
   color: #8364fb; }
+
+/*# sourceMappingURL=index.css.map */

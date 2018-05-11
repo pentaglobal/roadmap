@@ -1,0 +1,3 @@
+#file to instruct what it ignore when committing to github
+#ignore all the node modules which can be installed using 'npm install'
+node_modules/

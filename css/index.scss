@@ -219,7 +219,7 @@ li {
   margin-left: -250px;
 
   .tt {
-    height: 80px;
+    height: auto;
     line-height: 80px;
     color: $mainColor;
     font-size: 38px;
@@ -227,17 +227,19 @@ li {
   }
 
   .desc {
-    height: 30px;
+    height: auto;
     line-height: 30px;
     color: $fontColorLight;
+    font-size: 1.3em;
   }
 
   .list {
     color: $fontColorGray;
-    font-size: 12px;
+    font-size: 1.1em;
 
     span {
       padding-right: 10px;
+
     }
   }
 }
@@ -300,7 +302,7 @@ li {
       position: absolute;
       left: 0;
       right: 40px;
-      font-size: 12px;
+      font-size: 1.2em;
       text-align: right;
       top: -50px;
 
@@ -413,7 +415,7 @@ li {
     .name-desc {
       padding-left: 80px;
       width: 70%;
-      font-size: 14px;
+      font-size: 1.1em;
       padding-right: 40px;
       word-wrap: break-word;
     }
@@ -454,7 +456,7 @@ li {
     .name-desc {
       padding-left: 80px;
       width: 50%;
-      font-size: 12px;
+      font-size: 1.1em;
       padding-right: 40px;
       word-wrap: break-word;
     }
@@ -567,7 +569,8 @@ li {
         }
 
         li {
-          font-size: 12px;
+          //font-size: 12px;
+          font-size: 1.25em;
           padding: 3px 10px 3px 0;
           // list-style-type: initial;
           &:hover {
@@ -580,7 +583,7 @@ li {
 }
 
 .plan-item-header {
-  height: 80px;
+  height: auto;
   border: 1px solid #4d3f73;
   border-radius: 80px;
   padding: 10px 0;
