@@ -1,7 +1,7 @@
 $mainColor: #8364fb;
 $fontColorLight: #d0cbda;
 $fontColorGray: #867da1;
-@-webkit-keyframes circle {
+@keyframes circle {
   0% {
     transform: rotate(0deg);
   }
@@ -28,16 +28,16 @@ $fontColorGray: #867da1;
 }
 
 .animation {
-  -webkit-animation: twinkling 1.0s infinite ease-in-out;
+  animation: twinkling 1.0s infinite ease-in-out;
   animation: twinkling 1.2s infinite ease-in-out;
-  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .animation1 {
-  -webkit-animation: twinkling 0.8s infinite ease-in-out;
   animation: twinkling 0.8s infinite ease-in-out;
-  -webkit-animation-fill-mode: both;
+  animation: twinkling 0.8s infinite ease-in-out;
+  animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
@@ -274,7 +274,7 @@ li {
       bottom: 0;
       background: url("../img/ball-bg.png") no-repeat center;
       background-size: 208px;
-      -webkit-animation: circle 3s infinite linear;
+      animation: circle 3s infinite linear;
       z-index: -1;
     }
 
@@ -334,12 +334,12 @@ li {
     .plan-item-logo-bg {
       background: url("../img/ball-bg-clear.png") no-repeat center;
       background-size: 208px;
-      -webkit-animation: none;
+      animation: none;
     }
 
     .plan-item-logo {
       img {
-        -webkit-animation: circle 3s infinite linear;
+        animation: circle 3s infinite linear;
         height: 200px;
         top: 3px;
         left: 6px;
@@ -427,7 +427,7 @@ li {
     .plan-item-logo-bg {
       background: url("../img/star-end.png") no-repeat center;
       background-size: 208px;
-      -webkit-animation: none;
+      animation: none;
     }
 
     .plan-item-header {
