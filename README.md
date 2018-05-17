@@ -1,7 +1,7 @@
 <h1 align="center"> Penta Global Roadmap </h1> <br>
 <p align="center">
   <a href="https://penta.global/">
-    ![Penta Global](img/logo-3x.svg)
+    ![Penta Global](svg/logo-3x.svg)
   </a>
 </p>
 
