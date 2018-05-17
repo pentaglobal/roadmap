@@ -44,7 +44,7 @@ var config = {
                 isFinish: true
               }, {
                 name: "Random Sortilege Algorithm (RSA)",
-                isFinish: true
+                isFinish: false
               }, {
                 name: "Dynamic Stake Consensus (DSC)",
                 isFinish: false
@@ -257,7 +257,7 @@ var config = {
                 name: "Enterprise operation & maintenacne platform",
                 isFinish: false
               }, {
-                name: "Enterprise Application",
+                name: "Enterprise level application component",
                 isFinish: false
               }, {
                 name: "Chain member management",

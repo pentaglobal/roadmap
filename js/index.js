@@ -30,7 +30,7 @@ $.extend(String.prototype, {
       return this.toString();
     }
   }
-});
+}); //eo extend String
 
 $(function() {
   var mainHeader = {
@@ -190,4 +190,4 @@ $(function() {
   }
 
   main.init()
-})
+}); //eo driver function
