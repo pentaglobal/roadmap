@@ -43,7 +43,7 @@ var config = {
                 name: "PC wallet (Command Line based)",
                 isFinish: true
               }, {
-                name: "Random Sortilege Algorithm (RSA)",
+                name: "Random Sorting Algorithm (RSA)",
                 isFinish: false
               }, {
                 name: "Dynamic Stake Consensus (DSC)",
@@ -64,7 +64,7 @@ var config = {
                 name: "Voting center",
                 isFinish: false
               }, {
-                name: "Goverance of Penta chain",
+                name: "Governance of Penta chain",
                 isFinish: false
               }, {
                 name: "Consensus incentive and expense",
@@ -121,10 +121,10 @@ var config = {
             ],
             [
               {
-                name: "Kernel of DLOS",
+                name: "DLOS Kernel",
                 isFinish: false
               }, {
-                name: "Ledger strorage management",
+                name: "Ledger storage management",
                 isFinish: false
               }
             ],
@@ -186,7 +186,7 @@ var config = {
             [],
             [
               {
-                name: "PC version of DLOS UI",
+                name: "DLOS UI PC version",
                 isFinish: false
               }, {
                 name: "Multi-chain support",
@@ -311,7 +311,7 @@ var config = {
             ],
             [
               {
-                name: "Interfaces to ralational database available",
+                name: "Interface to relational database",
                 isFinish: false
               }, {
                 name: "Dapp file system available",
