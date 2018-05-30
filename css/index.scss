@@ -12,23 +12,23 @@ $fontColorGray: #867da1;
 }
 @keyframes twinkling {
   0% {
-    filter:alpha(opacity=20);
+    filter: alpha(opacity=20);
     -webkit-transform: scale(1);
   }
 
   50% {
-    filter:alpha(opacity=50);
+    filter: alpha(opacity=50);
     -webkit-transform: scale(1.12);
   }
 
   100% {
-    filter:alpha(opacity=20);
+    filter: alpha(opacity=20);
     -webkit-transform: scale(1);
   }
 }
 
 .animation {
-  animation: twinkling 1.0s infinite ease-in-out;
+  animation: twinkling 1s infinite ease-in-out;
   animation: twinkling 1.2s infinite ease-in-out;
   animation-fill-mode: both;
   animation-fill-mode: both;
@@ -48,7 +48,7 @@ html {
 
 body {
   line-height: 1.6;
-  font-family: Arial,'Microsoft YaHei','Helvetica Neue',Helvetica,sans-serif;
+  font-family: Arial, "Microsoft YaHei", "Helvetica Neue", Helvetica, sans-serif;
   background-color: #31215e;
 }
 
@@ -140,7 +140,7 @@ li {
         }
 
         &:after {
-          content: '';
+          content: "";
           display: inline-block;
           width: 12px;
           height: 7px;
@@ -477,7 +477,7 @@ li {
         margin-bottom: 20px;
 
         strong {
-          font-size: 36px;
+          font-size: 34px;
         }
       }
     }
@@ -671,7 +671,7 @@ li {
   top: -1px;
   z-index: 1;
   transition: all 1s;
-  clip: rect(0px,0px,120px,0px);
+  clip: rect(0px, 0px, 120px, 0px);
 }
 
 .completed {

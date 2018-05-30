@@ -1,0 +1,43 @@
+{
+  "name": "roadmap",
+  "version": "1.1.0",
+  "description": "Microsite for Penta Development Timeline (roadmap)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pentaglobal/roadmap.git"
+  },
+  "keywords": [
+    "penta",
+    "development",
+    "blockchain"
+  ],
+  "author": "Andrew, Mark, Steve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pentaglobal/roadmap/issues"
+  },
+  "homepage": "https://github.com/pentaglobal/roadmap#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-rename": "^1.2.3",
+    "gulp-rev": "^8.1.1",
+    "gulp-rev-collector": "^1.3.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svgo": "^1.5.4",
+    "gulp-uglify": "^3.0.0",
+    "yargs": "^11.0.0"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^4.0.0"
+  }
+}

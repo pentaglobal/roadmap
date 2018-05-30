@@ -4,32 +4,32 @@ var config = {
       text: "English",
       url: "./index.html",
       selected: true
-    }, {
+    },
+    {
       text: "简体中文",
       url: "./index_zh.html"
     }
   ],
-  //计划百分比
   planPercent: {
     chain: "10%",
     dlos: "--%",
     dapps: "--%",
     connecttors: "--%"
   },
-  // 年轴配置
   yearAxis: [
     {
       year: 2018,
       top: 92
-    }, {
+    },
+    {
       year: 2019,
       top: 612
-    }, {
+    },
+    {
       year: 2020,
       top: 1640
     }
   ],
-  //阶段数据
   planRoad: {
     plan1: {
       children: [
@@ -40,12 +40,14 @@ var config = {
           children: [
             [
               {
-                name: "PC wallet (Command Line based)",
+                name: "Command-line Wallet",
                 isFinish: true
-              }, {
+              },
+              {
                 name: "Random Sorting Algorithm (RSA)",
                 isFinish: false
-              }, {
+              },
+              {
                 name: "Dynamic Stake Consensus (DSC)",
                 isFinish: false
               }
@@ -54,26 +56,31 @@ var config = {
             [],
             []
           ]
-        }, {
+        },
+        {
           name: "Q3",
           desc: "",
           iconType: "round",
           children: [
             [
               {
-                name: "Voting center",
+                name: "DSC Voting Center",
                 isFinish: false
-              }, {
-                name: "Governance of Penta chain",
+              },
+              {
+                name: "Penta chain Governance",
                 isFinish: false
-              }, {
-                name: "Consensus incentive and expense",
+              },
+              {
+                name: "Consensus Incentives and Costs",
                 isFinish: false
-              }, {
-                name: "Smart contract",
+              },
+              {
+                name: "Smart Contracts Implementation",
                 isFinish: false
-              }, {
-                name: "PC wallet（with UI）",
+              },
+              {
+                name: "Desktop Wallet Deployment",
                 isFinish: false
               }
             ],
@@ -81,19 +88,22 @@ var config = {
             [],
             []
           ]
-        }, {
+        },
+        {
           name: "Q3",
-          desc: "Blockchain expolorer",
+          desc: "Blockchain Explorer",
           iconType: "star",
           children: [[], [], [], []]
-        }, {
+        },
+        {
           name: "Q4",
-          desc: "Open source code available on Github",
+          desc: "Open Source code available on Github",
           iconType: "github",
           children: [[], [], [], []]
-        }, {
+        },
+        {
           name: "Q4",
-          desc: "Testnet launch",
+          desc: "Launch of Testnet",
           iconType: "star",
           children: [[], [], [], []]
         }
@@ -104,18 +114,20 @@ var config = {
       children: [
         {
           name: "Q2",
-          desc: "V1.0MARS",
+          desc: "V1.0 MARS",
           iconType: "star",
           children: [
             [
               {
                 name: "Mobile wallet",
                 isFinish: false
-              }, {
-                name: "Key management",
+              },
+              {
+                name: "Keystore Management",
                 isFinish: false
-              }, {
-                name: "Light node",
+              },
+              {
+                name: "Lightweight Client Nodes",
                 isFinish: false
               }
             ],
@@ -123,15 +135,17 @@ var config = {
               {
                 name: "DLOS Kernel",
                 isFinish: false
-              }, {
-                name: "Ledger storage management",
+              },
+              {
+                name: "Ledger Strorage Management",
                 isFinish: false
               }
             ],
             [],
             []
           ]
-        }, {
+        },
+        {
           name: "Q3",
           desc: "",
           iconType: "round",
@@ -139,22 +153,24 @@ var config = {
             [],
             [
               {
-                name: "Consensus engine",
+                name: "Consensus Engine Deployment",
                 isFinish: false
               }
             ],
             [
               {
-                name: "Running environment",
+                name: "Production Environment Release",
                 isFinish: false
-              }, {
-                name: "WASM for VM support",
+              },
+              {
+                name: "WASM for VM Support",
                 isFinish: false
               }
             ],
             []
           ]
-        }, {
+        },
+        {
           name: "Q4",
           desc: "",
           iconType: "round",
@@ -162,13 +178,14 @@ var config = {
             [],
             [
               {
-                name: "Network manager",
+                name: "Penta Network Manager Release",
                 isFinish: false
               }
             ],
             [
               {
-                name: "Adding noSQL data storage Engine, support complex datatypes（Datasets and Objects）and query with data conditions"
+                name:
+                  "NoSQL data storage engine release, supporting blob datatypes（Datasets and Objects) and conditions query"
               }
             ],
             []
@@ -180,44 +197,49 @@ var config = {
       children: [
         {
           name: "",
-          desc: "V2.0 JUPiTER",
+          desc: "V2.0 JUPITER",
           iconType: "star",
           children: [
             [],
             [
               {
-                name: "DLOS UI PC version",
+                name: "Desktop version of DLOS UI",
                 isFinish: false
-              }, {
-                name: "Multi-chain support",
+              },
+              {
+                name: "Multi-chain Support Release",
                 isFinish: false
               }
             ],
             [],
             []
           ]
-        }, {
+        },
+        {
           name: "",
           desc: "",
           iconType: "round",
           children: [
             [
               {
-                name: "Sidechain support",
+                name: "Sidechain Support Launch",
                 isFinish: false
-              }, {
-                name: "PENTA file system",
+              },
+              {
+                name: "PENTA File System Deployed",
                 isFinish: false
               }
             ],
             [
               {
-                name: "DApp operation and maintenance ",
+                name: "DApp Operations and Maintenance Support",
                 isFinish: false
-              }, {
+              },
+              {
                 name: "DApp UI Android",
                 isFinish: false
-              }, {
+              },
+              {
                 name: "DApp UI IOS",
                 isFinish: false
               }
@@ -226,8 +248,10 @@ var config = {
               {
                 name: "DApp Store",
                 isFinish: false
-              }, {
-                name: "MPT-based KV data storage engine available to provide quick status roll back of smart contracts for fork-venerable chains",
+              },
+              {
+                name:
+                  "MPT-based key-value data engine available for rapid status reporting and smart contract roll back for fork-vulnerable chains",
                 isFinish: false
               }
             ],
@@ -245,10 +269,11 @@ var config = {
           children: [
             [
               {
-                name: "Layered network architecture",
+                name: "Layered Network Architecture",
                 isFinish: false
-              }, {
-                name: "Release of service registry",
+              },
+              {
+                name: "Service Registry Release",
                 isFinish: false
               }
             ],
@@ -256,10 +281,12 @@ var config = {
               {
                 name: "Enterprise operation & maintenacne platform",
                 isFinish: false
-              }, {
+              },
+              {
                 name: "Enterprise level application component",
                 isFinish: false
-              }, {
+              },
+              {
                 name: "Chain member management",
                 isFinish: false
               }
@@ -268,14 +295,19 @@ var config = {
               {
                 name: "DApp cluster operation mode",
                 isFinish: false
-              }, {
-                name: "DApp integrated development environment",
+              },
+              {
+                name: "DApp Integrated Development Environment Release",
                 isFinish: false
-              }, {
-                name: "Components of Dapp transcation consensus and chain consensus added. Easy for devs to work on varied Dapps and chains for application scenarios",
+              },
+              {
+                name:
+                  "Components of Dapp transaction consensus and chain consensus released. Easy to use engine for Dapp and sidechain application use case development",
                 isFinish: false
-              }, {
-                name: "KV data storage engine to support complex data types and available for index and query of object attributes",
+              },
+              {
+                name:
+                  "Key-value data storage engine supporting blob datatypes（Datasets and Objects) and object metadata queries",
                 isFinish: false
               }
             ],
@@ -293,43 +325,51 @@ var config = {
           children: [
             [
               {
-                name: "Sharding on Penta main chain",
+                name: "Sharding on Penta Main Chain",
                 isFinish: false
               }
             ],
             [
               {
-                name: "Support of DAG ledgers",
+                name: "Support for Directed Acyclic Graph (DAG) Ledgers",
                 isFinish: false
-              }, {
-                name: "Quantum-resistant cryptographic algorithm",
+              },
+              {
+                name:
+                  "Quantum-resistant Ledger (QRL) Cryptographic Algorithm Support",
                 isFinish: false
-              }, {
-                name: "Anonymity and privacy protection",
+              },
+              {
+                name: "Anonymity and Privacy Protection Services Release",
                 isFinish: false
               }
             ],
             [
               {
-                name: "Interface to relational database",
+                name: "Relational Database Support Deployed",
                 isFinish: false
-              }, {
-                name: "Dapp file system available",
+              },
+              {
+                name: "DApp File System Services Available",
                 isFinish: false
-              }, {
-                name: "Javascript and Java support of DApp development languages",
+              },
+              {
+                name:
+                  "Javascript and Java support of DApp development languages",
                 isFinish: false
               }
             ],
             [
               {
-                name: "Communication link layer protocols",
+                name: "Communication-links Layer Protocols Release",
                 isFinish: false
-              }, {
-                name: "Identity authentication protocols",
+              },
+              {
+                name: "Identity Authentication Protocols Release",
                 isFinish: false
-              }, {
-                name: "Value layer protocols",
+              },
+              {
+                name: "Value Layer Protocols Release",
                 isFinish: false
               }
             ]
@@ -338,4 +378,4 @@ var config = {
       ]
     }
   }
-}
+};
