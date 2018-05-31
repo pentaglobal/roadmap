@@ -23,11 +23,11 @@ var config = {
     },
     {
       year: 2019,
-      top: 612
+      top: 712
     },
     {
       year: 2020,
-      top: 1640
+      top: 1740
     }
   ],
   planRoad: {
@@ -97,7 +97,7 @@ var config = {
         },
         {
           name: "Q4",
-          desc: "Open Source code available on Github",
+          desc: "Source code available on Github",
           iconType: "github",
           children: [[], [], [], []]
         },
@@ -159,7 +159,7 @@ var config = {
             ],
             [
               {
-                name: "Production Environment Release",
+                name: "DAPP Environment Release",
                 isFinish: false
               },
               {
