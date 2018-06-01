@@ -11,7 +11,7 @@ var config = {
     }
   ],
   planPercent: {
-    chain: "10%",
+    chain: "20%",
     dlos: "--%",
     dapps: "--%",
     connecttors: "--%"

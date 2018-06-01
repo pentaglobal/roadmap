@@ -12,7 +12,7 @@ var config = {
   ],
   //计划百分比
   planPercent: {
-    chain: "10%",
+    chain: "20%",
     dlos: "--%",
     dapps: "--%",
     connecttors: "--%"
