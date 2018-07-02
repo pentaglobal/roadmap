@@ -11,7 +11,7 @@ var config = {
     }
   ],
   planPercent: {
-    chain: "20%",
+    chain: "30%",
     dlos: "--%",
     dapps: "--%",
     connecttors: "--%"
@@ -45,11 +45,11 @@ var config = {
               },
               {
                 name: "Random Sorting Algorithm (RSA)",
-                isFinish: false
+                isFinish: true
               },
               {
                 name: "Dynamic Stake Consensus (DSC)",
-                isFinish: false
+                isFinish: true
               }
             ],
             [],

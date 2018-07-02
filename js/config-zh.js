@@ -12,7 +12,7 @@ var config = {
   ],
   //计划百分比
   planPercent: {
-    chain: "20%",
+    chain: "30%",
     dlos: "--%",
     dapps: "--%",
     connecttors: "--%"
@@ -48,11 +48,11 @@ var config = {
               },
               {
                 name: "散列抽签算法",
-                isFinish: false
+                isFinish: true
               },
               {
                 name: "DSC共识算法实现",
-                isFinish: false
+                isFinish: true
               }
             ],
             [],
