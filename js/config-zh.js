@@ -12,7 +12,7 @@ var config = {
   ],
   //计划百分比
   planPercent: {
-    chain: "30%",
+    chain: "50%",
     dlos: "--%",
     dapps: "--%",
     connecttors: "--%"
@@ -68,7 +68,7 @@ var config = {
             [
               {
                 name: "投票中心",
-                isFinish: false
+                isFinish: true
               },
               {
                 name: "Penta链治理结构",
@@ -76,11 +76,11 @@ var config = {
               },
               {
                 name: "共识奖励与费用",
-                isFinish: false
+                isFinish: true
               },
               {
                 name: "智能合约",
-                isFinish: false
+                isFinish: true
               },
               {
                 name: "PC端钱包（图形界面）",
@@ -96,7 +96,12 @@ var config = {
           name: "Q3",
           desc: "区块链浏览器",
           iconType: "star",
-          children: [[], [], [], []]
+          children: [[
+            {
+              name: "区块链浏览器开发",
+              isFinish: true
+            }
+          ], [], [], []]
         },
         {
           name: "Q4",
@@ -113,7 +118,7 @@ var config = {
       ]
     },
     plan2: {
-      percent: 10,
+      percent: 85,
       children: [
         {
           name: "Q2",

@@ -11,7 +11,7 @@ var config = {
     }
   ],
   planPercent: {
-    chain: "30%",
+    chain: "50%",
     dlos: "--%",
     dapps: "--%",
     connecttors: "--%"
@@ -65,7 +65,7 @@ var config = {
             [
               {
                 name: "DSC Voting Center",
-                isFinish: false
+                isFinish: true
               },
               {
                 name: "Penta chain Governance",
@@ -73,11 +73,11 @@ var config = {
               },
               {
                 name: "Consensus Incentives and Costs",
-                isFinish: false
+                isFinish: true
               },
               {
                 name: "Smart Contracts Implementation",
-                isFinish: false
+                isFinish: true
               },
               {
                 name: "Desktop Wallet Deployment",
@@ -93,7 +93,12 @@ var config = {
           name: "Q3",
           desc: "Blockchain Explorer",
           iconType: "star",
-          children: [[], [], [], []]
+          children: [[
+            {
+              name: "Blockchain explorer develop",
+              isFinish: true
+            }
+          ], [], [], []]
         },
         {
           name: "Q4",
@@ -110,7 +115,7 @@ var config = {
       ]
     },
     plan2: {
-      percent: 10,
+      percent: 85,
       children: [
         {
           name: "Q2",
